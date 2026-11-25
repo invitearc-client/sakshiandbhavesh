@@ -78,10 +78,6 @@ export default function Home() {
     {
       date: "Sunday, 20th December 2026",
 
-   
-
-
-
       Main_title_ceremony: "Baaraatiyon Ka Dil Se Swagat",
       time: "2:00 pm – 3:00 pm",
       venue: "Venue: Anand Karaj Hall",
@@ -102,7 +98,7 @@ export default function Home() {
 
       Main_title_ceremony4: "The Family Jam",
       time4: "10:00 pm – 12:00 am",
-      // venue7: "Mahal Terrace",
+      // venue4: "Mahal Terrace",
       image4: "/assets/jam.webp",
 
 
@@ -472,14 +468,14 @@ export default function Home() {
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
                     <span className="text-[22px]">  {event.time4} </span>
                   </p>
-                  <p className="text-white font-Cormorant-upright text-[24px]">
+                  {/* <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue4}
-                  </p>
+                  </p> */}
 
 
 
 
-                  {event.image5 && (<img
+                  {/* {event.image5 && (<img
                     src={event.image5}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
@@ -495,7 +491,7 @@ export default function Home() {
                   <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue5}
                   </p>
-
+ */}
 
 
                   {/* {event.image6 && (<img
