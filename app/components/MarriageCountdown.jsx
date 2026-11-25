@@ -81,9 +81,9 @@ export default function MarriageCountdown() {
           </p>
 
           <div className="flex flex-col justify-center items-center ">
-            <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
+            <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-16">
               AWAITING THE PLEASURE OF <br /> YOUR COMPANY
-              <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9]  font-Cormorant-upright mt-2 font-bold">
+              <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9]  font-Cormorant-upright mt-8 font-bold">
                 Dharampal N. Kataria
               </h2>
               <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9] font-Cormorant-upright mt-4 font-bold">
@@ -109,7 +109,7 @@ export default function MarriageCountdown() {
               </a>
               <br />
              
-              <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-4">
+              <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-8">
                 With Love,
                 <br />
                 Kataria Family
