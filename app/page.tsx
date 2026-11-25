@@ -78,44 +78,32 @@ export default function Home() {
     {
       date: "Sunday, 20th December 2026",
 
-      // Main_title_ceremony: "Saath Sagun",
-      // image: "/assets/sagun.webp",
-      // time: "8:00 am",
+   
 
 
 
-      Main_title_ceremony2: "Sehra Bandhan",
-      image2: "/assets/sehra.webp",
-      time2: "11:30 am",
-      venue2: "Venue: Anand Karaj Hall",
-
-      Main_title_ceremony3: "Band Baaja Baarat",
-      time3: "12:30 pm – 2:00 pm",
-      // venue3: "Pool Lawn",
-      image3: "/assets/baarat.webp",
-
-      Main_title_ceremony4: "Baaraatiyon Ka Dil Se Swagat",
-      time4: "2:00 pm – 3:00 pm",
-      venue4: "Venue: Anand Karaj Hall",
-      image4: "/assets/swagat.webp",
+      Main_title_ceremony: "Baaraatiyon Ka Dil Se Swagat",
+      time: "2:00 pm – 3:00 pm",
+      venue: "Venue: Anand Karaj Hall",
+      image: "/assets/swagat.webp",
 
 
-      Main_title_ceremony5: "Jai Mala",
-      time5: "5:00 pm",
-      venue5: "Venue: Mahal Terrace",
-      image5: "/assets/jai_mala.webp",
+      Main_title_ceremony2: "Jai Mala",
+      time2: "5:00 pm",
+      venue2: "Venue: Mahal Terrace",
+      image2: "/assets/jai_mala.webp",
 
 
-      Main_title_ceremony6: "Saat Vachan",
-      time6: "6:00 pm – 8:00 pm",
-      venue6: "Venue: Mahal Terrace",
-      image6: "/assets/vachan.webp",
+      Main_title_ceremony3: "Saat Vachan",
+      time3: "6:00 pm – 8:00 pm",
+      venue3: "Venue: Mahal Terrace",
+      image3: "/assets/vachan.webp",
 
 
-      Main_title_ceremony7: "The Family Jam",
-      time7: "10:00 pm – 12:00 am",
+      Main_title_ceremony4: "The Family Jam",
+      time4: "10:00 pm – 12:00 am",
       // venue7: "Mahal Terrace",
-      image7: "/assets/jam.webp",
+      image4: "/assets/jam.webp",
 
 
 
@@ -416,7 +404,7 @@ export default function Home() {
                     {event.date}
 
                   </p>
-                  {/* <img
+                  <img
                     src={event.image}
                     alt={event.Main_title_ceremony2}
                     className="lg:w-80 w-60 sm:w-76  h-auto"
@@ -432,8 +420,8 @@ export default function Home() {
 
                     {event.venue}
 
-                  </p> */}
-                  {/* {event.image2 && (<img
+                  </p>
+                  {event.image2 && (<img
                     src={event.image2}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
@@ -448,12 +436,12 @@ export default function Home() {
                   </p>
                   <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue2}
-                  </p> */}
+                  </p>
 
 
 
 
-                  {/* {event.image3 && (<img
+                  {event.image3 && (<img
                     src={event.image3}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
@@ -465,10 +453,10 @@ export default function Home() {
 
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
                     <span className="text-[22px]">  {event.time3} </span>
-                  </p> */}
-                  {/* <p className="text-white font-Cormorant-upright text-[14px] sm:text-[24px]">
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue3}
-                  </p> */}
+                  </p>
 
 
                   {event.image4 && (<img
@@ -510,7 +498,7 @@ export default function Home() {
 
 
 
-                  {event.image6 && (<img
+                  {/* {event.image6 && (<img
                     src={event.image6}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
@@ -525,9 +513,9 @@ export default function Home() {
                   </p>
                   <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue6}
-                  </p>
+                  </p> */}
 
-
+{/* 
                   {event.image7 && (<img
                     src={event.image7}
                     alt={event.venue}
@@ -540,7 +528,7 @@ export default function Home() {
 
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
                     <span className="text-[22px]">  {event.time7} </span>
-                  </p>
+                  </p> */}
                   {/* <p className="text-white font-Cormorant-upright text-[14px] sm:text-[24px]">
                     {event.venue7}
                   </p> */}
