@@ -84,35 +84,35 @@ export default function MarriageCountdown() {
             <h2 className="lg:text-5xl text-2xl text-center text-[#FFF5B9] lg:pt-20 font-Cormorant-upright pt-20">
               AWAITING THE PLEASURE OF <br /> YOUR COMPANY
               <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9]  font-Cormorant-upright mt-2 font-bold">
-                Pushpadevi Sureshlal Adwani
+                Dharampal N. Kataria
               </h2>
               <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9] font-Cormorant-upright mt-4 font-bold">
-                Haresh K. Adwani{" "}
+                Mukesh D. Kataria
               </h2>
               <a
-                href="tel:9421821082"
+                href="tel:9422190923"
                 className="inline-flex items-center gap-2  transition font-eb-garamond text-[17px] ml-2"
               >
                 <Phone size={15} />
-                9421821082
+                9422190923
               </a>
-              <p className="text-[19px] -mt-1"> Sudarshan Textile</p>
+              <p className="text-[19px] -mt-1">Mukesh Garments</p>
               <h2 className="lg:text-3xl text-[22px] text-center text-[#FFF5B9] font-Cormorant-upright mt-4 font-bold">
-                Mahesh K. Adwani{" "}
+                Mayuresh M. Kataria
               </h2>
               <a
-                href="tel:9373955838"
+                href="tel:8459340503"
                 className="inline-flex items-center gap-2  transition font-eb-garamond text-[17px] ml-2"
               >
                 <Phone size={15} />
-                9373955838
+               8459340503
               </a>
               <br />
-              <p className="text-[19px] -mt-1">City Site</p>
+             
               <h2 className="lg:text-3xl text-2xl text-center text-[#FFF5B9]  font-Cormorant-upright mt-4">
                 With Love,
                 <br />
-                ADWANI FAMILY
+                Kataria Family
               </h2>
             </h2>
           </div>

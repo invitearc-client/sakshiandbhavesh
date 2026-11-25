@@ -42,21 +42,21 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 };
 
 export default function Home() {
-const [showScroll, setShowScroll] = useState(true);
+  const [showScroll, setShowScroll] = useState(true);
 
-useEffect(() => {
-  const handleScroll = () => {
-    setShowScroll(window.scrollY < 20);
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScroll(window.scrollY < 20);
+    };
 
-  window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
-  handleScroll();
+    handleScroll();
 
-  return () => {
-    window.removeEventListener("scroll", handleScroll);
-  };
-}, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
 
 
@@ -78,10 +78,10 @@ useEffect(() => {
     {
       date: "Sunday, 20th December 2026",
 
-      Main_title_ceremony: "Saath Sagun",
-      image: "/assets/sagun.webp",
-      time: "8:00 am",
-    
+      // Main_title_ceremony: "Saath Sagun",
+      // image: "/assets/sagun.webp",
+      // time: "8:00 am",
+
 
 
       Main_title_ceremony2: "Sehra Bandhan",
@@ -96,7 +96,7 @@ useEffect(() => {
 
       Main_title_ceremony4: "Baaraatiyon Ka Dil Se Swagat",
       time4: "2:00 pm – 3:00 pm",
-      venue4: "Venue: Anand Karaj Hal",
+      venue4: "Venue: Anand Karaj Hall",
       image4: "/assets/swagat.webp",
 
 
@@ -188,41 +188,41 @@ useEffect(() => {
 
 
 
-<div className="fixed bottom-20 right-2 z-50 flex flex-col items-center">
-  <button
-    type="button"
-    onClick={() => {
-      window.scrollBy({
-        top: window.innerHeight * 0.7,
-        behavior: "smooth",
-      });
-    }}
-    className="flex flex-col items-center gap-2 text-[#fff]"
-    aria-label="Scroll down to explore"
-  >
-    <span className="flex h-16 w-6 items-center justify-center rounded-full border-2 border-[#C14405] bg-[#C14405] cursor-pointer">
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="m7 10 5 5 5-5" />
-        <path d="m7 5 5 5 5-5" />
-      </svg>
-    </span>
+      <div className="fixed bottom-20 right-2 z-50 flex flex-col items-center">
+        <button
+          type="button"
+          onClick={() => {
+            window.scrollBy({
+              top: window.innerHeight * 0.7,
+              behavior: "smooth",
+            });
+          }}
+          className="flex flex-col items-center gap-2 text-[#fff]"
+          aria-label="Scroll down to explore"
+        >
+          <span className="flex h-16 w-6 items-center justify-center rounded-full border-2 border-[#C14405] bg-[#C14405] cursor-pointer">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="m7 10 5 5 5-5" />
+              <path d="m7 5 5 5 5-5" />
+            </svg>
+          </span>
 
-    <span className="animate-pulse text-[12px] tracking-[2px] poppins-bold  font-bold text-[#C14405]">
-      SCROLL <br /> DOWN
-    </span>
-   
-  </button>
+          <span className="animate-pulse text-[12px] tracking-[2px] poppins-bold  font-bold text-[#C14405]">
+            SCROLL <br /> DOWN
+          </span>
 
-</div>
+        </button>
+
+      </div>
 
 
 
@@ -322,10 +322,10 @@ useEffect(() => {
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
           <h2 className="text-[#15528A]  text-center leading-tight text-[38px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-0">
             <span className="font-eb-garamond [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
-              Bhavesh
+              Sakshi
             </span>
             <span className="text-[16px] sm:text-3xl tracking-[6px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="font-eb-garamond [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Sakshi</span>
+            <span className="font-eb-garamond [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Bhavesh</span>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150 3xl:pt-280">
@@ -341,7 +341,7 @@ useEffect(() => {
             />
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[32px] font-semibold">
-              THE ADWANI FAMILY
+              THE KATARIA FAMILY
             </h2>
           </div>
 
@@ -352,25 +352,24 @@ useEffect(() => {
             </h2> */}
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-              cordially invites you<br />
-              With the heavenly blessings of <br />
-              Late Smt. Dwaribai & Shri Kanhaiyalal Adwani
+              With the blessings of <br />
+              Smt. Jasoda & Shri Dharampal Kataria
             </p>
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-              to celebrate the joyous wedding of
+              cordially invite you to celebrate the wedding of their beloved granddaughter
             </p>
 
 
             <h2 className="text-white font-Cormorant-upright text-center mt-5
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              BHAVESH
+              SAKSHI
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[20px]">
-
-              (Son of Mrs. Preeti & Mr. Mahesh Adwani) <br />
+              (Daughter of Mrs. Muskan & Mr. Mukesh Kataria)
+              <br />
 
             </p>
 
@@ -379,15 +378,15 @@ useEffect(() => {
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4
             md:text-4xl text-[32px] lg:text-[60px] leading-tight">Weds</span>   <br />
-              SAKSHI
+              BHAVESH
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[20px]">
-              (Daughter of Mrs. Muskan & Mr. Mukesh Kataria) <br />
+              (Son of Mrs. Preeti & Mr. Mahesh Adwani)<br />
 
             </p>
 
-           
+
           </div>
 
           <div className="flex flex-col-1 justify-center items-center mt-10">
@@ -417,7 +416,7 @@ useEffect(() => {
                     {event.date}
 
                   </p>
-                  <img
+                  {/* <img
                     src={event.image}
                     alt={event.Main_title_ceremony2}
                     className="lg:w-80 w-60 sm:w-76  h-auto"
@@ -433,8 +432,8 @@ useEffect(() => {
 
                     {event.venue}
 
-                  </p>
-                  {event.image2 && (<img
+                  </p> */}
+                  {/* {event.image2 && (<img
                     src={event.image2}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
@@ -449,12 +448,12 @@ useEffect(() => {
                   </p>
                   <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue2}
-                  </p>
+                  </p> */}
 
 
 
 
-                  {event.image3 && (<img
+                  {/* {event.image3 && (<img
                     src={event.image3}
                     alt={event.venue}
                     className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
@@ -466,7 +465,7 @@ useEffect(() => {
 
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
                     <span className="text-[22px]">  {event.time3} </span>
-                  </p>
+                  </p> */}
                   {/* <p className="text-white font-Cormorant-upright text-[14px] sm:text-[24px]">
                     {event.venue3}
                   </p> */}
@@ -595,7 +594,7 @@ useEffect(() => {
 
 
       <div className="w-full relative">
-        
+
 
         {/* <p className="absolute md:top-50 lg:top-110 top-55 left-0 w-full text-center text-[#071949] font-Cormorant-upright lg:text-[50px] md:text-2xl text-[32px] z-10 font-bold">
           #SAKSHIGotBHAVESH
