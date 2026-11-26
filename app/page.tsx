@@ -78,28 +78,32 @@ export default function Home() {
     {
       date: "Sunday, 20th December 2026",
 
-      Main_title_ceremony: "Baaraatiyon Ka Dil Se Swagat",
-      time: "2:00 pm – 3:00 pm",
-      venue: "Venue: Anand Karaj Hall",
-      image: "/assets/swagat.webp",
+Main_title_ceremony: "Saath Sagun",
+      image: "/assets/bride_sagun.webp",
+      time: "9:30 am",
+
+      Main_title_ceremony2: "Baaraatiyon Ka Dil Se Swagat",
+      time2: "2:00 pm – 3:00 pm",
+      venue2: "Venue: Anand Karaj Hall",
+      image2: "/assets/swagat.webp",
 
 
-      Main_title_ceremony2: "Jai Mala",
-      time2: "5:00 pm",
-      venue2: "Venue: Mahal Terrace",
-      image2: "/assets/jai_mala.webp",
-
-
-      Main_title_ceremony3: "Saat Vachan",
-      time3: "6:00 pm – 8:00 pm",
+      Main_title_ceremony3: "Jai Mala",
+      time3: "5:00 pm",
       venue3: "Venue: Mahal Terrace",
-      image3: "/assets/vachan.webp",
+      image3: "/assets/jai_mala.webp",
 
 
-      Main_title_ceremony4: "The Family Jam",
-      time4: "10:00 pm – 12:00 am",
-      // venue4: "Mahal Terrace",
-      image4: "/assets/jam.webp",
+      Main_title_ceremony4: "Saat Vachan",
+      time4: "6:00 pm – 8:00 pm",
+      venue4: "Venue: Mahal Terrace",
+      image4: "/assets/vachan.webp",
+
+
+      Main_title_ceremony5: "The Family Jam",
+      time5: "10:00 pm – 12:00 am",
+      venue5: "Mahal Terrace",
+      image5: "/assets/jam.webp",
 
 
 
@@ -303,7 +307,7 @@ export default function Home() {
         {/* <FallingLamps /> */}
 
 
-        <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10  px-4 md:px-0">
+        <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-450 3xl:pb-850 relative z-10  px-4 md:px-0">
           <h2 className="text-[#15528A]  text-center leading-tight text-[38px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-0">
             <span className="font-eb-garamond [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
               Sakshi
@@ -468,11 +472,27 @@ export default function Home() {
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
                     <span className="text-[22px]">  {event.time4} </span>
                   </p>
-                  {/* <p className="text-white font-Cormorant-upright text-[24px]">
+                  <p className="text-white font-Cormorant-upright text-[24px]">
                     {event.venue4}
-                  </p> */}
+                  </p>
 
 
+ {event.image5 && (<img
+                    src={event.image5}
+                    alt={event.venue}
+                    className="lg:w-80 w-60 sm:w-76  h-auto mt-6"
+                  />)}
+
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold">
+                    {event.Main_title_ceremony5}
+                  </h2>
+
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base ">
+                    <span className="text-[22px]">  {event.time5} </span>
+                  </p>
+                  <p className="text-white font-Cormorant-upright text-[24px]">
+                    {event.venue4}
+                  </p>
 
 
                   {/* {event.image5 && (<img
